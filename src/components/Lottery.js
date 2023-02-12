@@ -70,11 +70,21 @@ export default function Lottery(){
     };    
 
     useEffect(()=>{
-        
+        if(!Enable){
+            setCorrectTimes(0);
+            setColors([]);
+            setCorrectArr([]);
+            setRandomNumber(0);
+            setRandomNumber2(0);
+            setRandomNumber3(0);
+            setRandomNumber4(0);
+            setRandomNumber5(0);
+            setEnable([]);
+        }
         
 
        //setInputNum(0);
-    },[Enable,correctArr,correctTimes]);
+    },[Enable,setColors,setCorrectArr,setRandomNumber,setRandomNumber2,setRandomNumber3,setRandomNumber4,setRandomNumber5,correctArr]);
 
     function RandomNumButton(){
         var style='primary';

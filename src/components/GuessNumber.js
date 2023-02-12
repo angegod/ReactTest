@@ -57,10 +57,19 @@ const GuessNumber=({setEnable,listColors})=>{
         }
     }
 
+    function Reset(){//重置
+        setGuessCount(1);
+        setEnable(false);
+        setChildEnable(true);
+        setInputNum(0);
+        setNumArr([]);
+    }
+
     return (
         <><div className='guess'>
             <input type='number' id="number" placeholder={placeholder} onChange={e=>setInputNum(e.target.value)} onKeyDown={handleKeyDown} disabled={!childEnable}/>
-            <Button variant='primary'  onClick={handleClick} disabled={!childEnable}>Add Guess!</Button><br/>
+            <Button variant='primary'  onClick={handleClick} disabled={!childEnable}>Add Guess!</Button>
+            <Button variant='primary' onClick={Reset} disabled={childEnable}>Reset</Button><br/>
             <ul>{GuessNumberList}</ul>
             
         </div></>
