@@ -1,0 +1,24 @@
+label{
+    margin-left:10px;
+    margin-right:10px;
+}
+ul{
+    list-style: none;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.white{
+    color: black;
+    background-color: white;
+}
+li{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
