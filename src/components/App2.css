@@ -4,6 +4,9 @@ label{
 }
 ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .green{
     background-color: green;
@@ -18,9 +21,11 @@ ul{
     background-color: white;
 }
 li{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height:25px;
+    border-radius: 5px;
 }
 button{
     margin-left:10px;
