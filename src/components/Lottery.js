@@ -79,7 +79,7 @@ export default function Lottery(){
             setRandomNumber3(0);
             setRandomNumber4(0);
             setRandomNumber5(0);
-            setEnable([]);
+            setEnable([]);//避免重複執行
         }
         
 
