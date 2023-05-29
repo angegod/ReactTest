@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+button{
+    margin-left: 20px;
+}
+
+.drop {
+    opacity: 1;
+    max-height: 150px;
+    transition: opacity 2s ease-in-out;
+}
+.drop{
+    opacity: 0;
+    max-height: 0;
+}

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 //import axios from 'axios';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App2.css';
+import './style/App2.css';
 
 const GuessNumber=({setEnable,listColors})=>{
     //setEnable是傳輸變數之一，對於子物件來說，true則代表可以輸入數值，當五個數值輸入完畢之後，就會將子物件的按鈕遮蔽。父物件的按鈕打開

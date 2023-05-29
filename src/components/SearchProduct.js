@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios';
-import './App.css';
+import './style/App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +21,12 @@ function SearchProduct(){
     const handleclick=()=>{
         setIdFromButtonClick(true);
     }
+
+    /* 
+        1.傳值方式、需求方式 GET POST
+        2.地址
+        3.引數 (可要可不要的東西)
+    */
 
 
     useEffect(()=>{

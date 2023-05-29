@@ -23,7 +23,8 @@ ul{
 li{
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25px;
+    height:25px;
 }
 button{
     margin-left:10px;
